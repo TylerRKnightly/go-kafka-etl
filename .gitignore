@@ -1,0 +1,40 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build output
+bin/
+build/
+
+# Dependency files (Go modules will regenerate them)
+vendor/
+
+# Go workspace files
+go.sum
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and debug
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+.env
+docker-compose.override.yml
+
+# Kafka volumes (if you use them later)
+kafka-data/
+zookeeper-data/
